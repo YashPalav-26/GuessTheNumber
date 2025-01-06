@@ -20,7 +20,16 @@ document.querySelector(".check").addEventListener("click", function () {
   //Executes When Player wins !!
   else if (guessedValue === secretNumber) {
     dispMessage("🎉 You Guessed it Right!");
-    document.querySelector("body").style.backgroundColor = "#60b347";
+    document.querySelector("body").style.background =
+      "linear-gradient(to right top,rgb(11, 190, 80), #0AA844)";
+
+    document.querySelector("h1").style.color = "#fff";
+    document.querySelector(".between").style.color = "#fff";
+    document.querySelector(".message").style.color = "#fff";
+    document.querySelector(".label-score").style.color = "#fff";
+    document.querySelector(".label-highscore").style.color = "#fff";
+    document.querySelector(".score").style.color = "#fff";
+    document.querySelector(".highscore").style.color = "#fff";
     document.querySelector(".number").style.width = "30rem";
     document.querySelector(".number").textContent = secretNumber;
 
@@ -47,7 +56,15 @@ document.querySelector(".check").addEventListener("click", function () {
 document.querySelector(".again").addEventListener("click", function () {
   score = 20;
   secretNumber = Math.trunc(Math.random() * 20 + 1);
-  document.querySelector("body").style.backgroundColor = "#222";
+  document.querySelector("body").style.background =
+    "linear-gradient(135deg, #141e30, #243b55)";
+  document.querySelector("h1").style.color = "#00d4ff";
+  document.querySelector(".between").style.color = "#00d4ff";
+  document.querySelector(".message").style.color = "#00d4ff";
+  document.querySelector(".label-score").style.color = "#00d4ff";
+  document.querySelector(".label-highscore").style.color = "#00d4ff";
+  document.querySelector(".score").style.color = "#00ff7f";
+  document.querySelector(".highscore").style.color = "#00ff7f";
   document.querySelector(".number").textContent = "?";
   document.querySelector(".number").style.width = "15rem";
   dispMessage("Start guessing...");
