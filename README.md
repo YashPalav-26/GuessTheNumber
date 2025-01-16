@@ -20,4 +20,4 @@ Welcome to the **Guess the Number Game**! This exciting game challenges you to g
 - **JavaScript**: Game logic and interactivity
 
 ## Live Demo 🚀
-Check out the live demo of the NumberHunt app here: (https://numberhunt.vercel.app)
+Check out the live demo of the NumberHunt app here: (https://yash-numberhunt.vercel.app)
